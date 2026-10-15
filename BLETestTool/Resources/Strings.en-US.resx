@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>BLE Debug Tool V1.1</value></data>
+  <data name="MenuDeviceList" xml:space="preserve"><value>Device List</value></data>
+  <data name="MenuView" xml:space="preserve"><value>View(V)</value></data>
+  <data name="MenuSettings" xml:space="preserve"><value>Settings(S)</value></data>
+  <data name="MenuLanguage" xml:space="preserve"><value>Language</value></data>
+  <data name="MenuHelp" xml:space="preserve"><value>Help(H)</value></data>
+  <data name="DeviceList" xml:space="preserve"><value>Device List</value></data>
+  <data name="Scanner" xml:space="preserve"><value>Scanner</value></data>
+  <data name="Bonded" xml:space="preserve"><value>Bonded</value></data>
+  <data name="StopScan" xml:space="preserve"><value>Stop Scan</value></data>
+  <data name="DfuBootFirst" xml:space="preserve"><value>DFU boot first</value></data>
+  <data name="Connect" xml:space="preserve"><value>Connect</value></data>
+  <data name="Disconnect" xml:space="preserve"><value>Disconnect</value></data>
+  <data name="Pair" xml:space="preserve"><value>Pair</value></data>
+  <data name="Clear" xml:space="preserve"><value>Clear</value></data>
+  <data name="Advertisement" xml:space="preserve"><value>Advertisement</value></data>
+  <data name="MacAddress" xml:space="preserve"><value>MAC Address</value></data>
+  <data name="AdvertisementType" xml:space="preserve"><value>Advertisement Type</value></data>
+  <data name="Flags" xml:space="preserve"><value>Flags</value></data>
+  <data name="Length" xml:space="preserve"><value>Length</value></data>
+  <data name="AdType" xml:space="preserve"><value>AD Type</value></data>
+  <data name="Data" xml:space="preserve"><value>Data</value></data>
+  <data name="TotalScanned" xml:space="preserve"><value>Total scanned devices: {0}</value></data>
+  <data name="Copy" xml:space="preserve"><value>Copy</value></data>
+  <data name="Services" xml:space="preserve"><value>Services/Characteristics</value></data>
+  <data name="DeviceName" xml:space="preserve"><value>Device Name</value></data>
+  <data name="ConnectedText" xml:space="preserve"><value>Connected</value></data>
+  <data name="DisconnectedText" xml:space="preserve"><value>Disconnected</value></data>
+  <data name="DisconnectConn" xml:space="preserve"><value>Disconnect</value></data>
+  <data name="Service" xml:space="preserve"><value>Service</value></data>
+  <data name="Characteristics" xml:space="preserve"><value>Characteristics</value></data>
+  <data name="OnlyFavourite" xml:space="preserve"><value>Only favourite</value></data>
+  <data name="GenericAccess" xml:space="preserve"><value>GenericAccess</value></data>
+  <data name="GenericAttribute" xml:space="preserve"><value>GenericAttribute</value></data>
+  <data name="UnknownService" xml:space="preserve"><value>Unknown Service</value></data>
+  <data name="UnknownCharacteristic" xml:space="preserve"><value>Unknown Characteristic</value></data>
+  <data name="Notifications" xml:space="preserve"><value>Notifications</value></data>
+  <data name="Notify" xml:space="preserve"><value>Notify</value></data>
+  <data name="Read" xml:space="preserve"><value>Read</value></data>
+  <data name="Received" xml:space="preserve"><value>Received: {0} Byte</value></data>
+  <data name="HexDisplay" xml:space="preserve"><value>HEX Display</value></data>
+  <data name="RealTimeSpeed" xml:space="preserve"><value>Real-time speed: {0} B/S</value></data>
+  <data name="ReadBtn" xml:space="preserve"><value>Read</value></data>
+  <data name="ClearBtn" xml:space="preserve"><value>Clear</value></data>
+  <data name="Write" xml:space="preserve"><value>Write</value></data>
+  <data name="WriteChannel" xml:space="preserve"><value>Write channel</value></data>
+  <data name="WriteType" xml:space="preserve"><value>Write type (Write)</value></data>
+  <data name="FileSend" xml:space="preserve"><value>File send</value></data>
+  <data name="Sent" xml:space="preserve"><value>Sent: {0} Byte</value></data>
+  <data name="HexSend" xml:space="preserve"><value>HEX Send</value></data>
+  <data name="WriteNoResponse" xml:space="preserve"><value>Write No Response</value></data>
+  <data name="SendBtn" xml:space="preserve"><value>Send</value></data>
+  <data name="Log" xml:space="preserve"><value>Log</value></data>
+  <data name="All" xml:space="preserve"><value>ALL</value></data>
+  <data name="UnknownDevice" xml:space="preserve"><value>Unknown Device</value></data>
+  <data name="LanguageZh" xml:space="preserve"><value>简体中文</value></data>
+  <data name="LanguageEn" xml:space="preserve"><value>English</value></data>
+  <data name="LogScanStart" xml:space="preserve"><value>Scanning started</value></data>
+  <data name="LogScanStop" xml:space="preserve"><value>Scanning stopped</value></data>
+  <data name="LogConnected" xml:space="preserve"><value>Connected</value></data>
+  <data name="LogDisconnected" xml:space="preserve"><value>Disconnected</value></data>
+  <data name="LogPairOk" xml:space="preserve"><value>Pairing succeeded</value></data>
+  <data name="LogPairFail" xml:space="preserve"><value>Pairing failed</value></data>
+  <data name="LogServiceLoaded" xml:space="preserve"><value>Service info loaded</value></data>
+  <data name="LogCharLoaded" xml:space="preserve"><value>Characteristic info loaded</value></data>
+  <data name="LogNotifyOn" xml:space="preserve"><value>Notification enabled</value></data>
+  <data name="LogNotifyOff" xml:space="preserve"><value>Notification disabled</value></data>
+  <data name="LogMtu" xml:space="preserve"><value>MTU {0}</value></data>
+  <data name="LogRead" xml:space="preserve"><value>Read {0} bytes</value></data>
+  <data name="LogWrite" xml:space="preserve"><value>Write {0} bytes</value></data>
+  <data name="LogData" xml:space="preserve"><value>{0}</value></data>
+  <data name="LogNoCharSelected" xml:space="preserve"><value>No characteristic selected</value></data>
+  <data name="LogFileLoad" xml:space="preserve"><value>File loaded: {0}</value></data>
+  <data name="LogFileBytes" xml:space="preserve"><value>File size: {0} bytes</value></data>
+  <data name="BondedNote" xml:space="preserve"><value>Bonded device list is not implemented in this build.</value></data>
+  <data name="About" xml:space="preserve"><value>About</value></data>
+  <data name="AboutText" xml:space="preserve"><value>BLE Debug Tool V1.1</value></data>
+  <data name="Properties" xml:space="preserve"><value>Properties</value></data>
+  <data name="Handle" xml:space="preserve"><value>Handle</value></data>
+  <data name="Uuid" xml:space="preserve"><value>UUID</value></data>
+  <data name="DBm" xml:space="preserve"><value>dbm</value></data>
+  <data name="ConnectedTrue" xml:space="preserve"><value>Connected: true</value></data>
+  <data name="ConnectedFalse" xml:space="preserve"><value>Connected: false</value></data>
+  <data name="AddrType" xml:space="preserve"><value>Addr Type</value></data>
+  <data name="Public" xml:space="preserve"><value>Public</value></data>
+  <data name="Random" xml:space="preserve"><value>Random</value></data>
+  <data name="RSSI" xml:space="preserve"><value>RSSI</value></data>
+  <data name="BroadcastType" xml:space="preserve"><value>Broadcast Type</value></data>
+  <data name="PairedDevices" xml:space="preserve"><value>Paired Devices</value></data>
+  <data name="Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="Close" xml:space="preserve"><value>Close</value></data>
+  <data name="NoPaired" xml:space="preserve"><value>No paired devices</value></data>
+  <data name="SelectDeviceFirst" xml:space="preserve"><value>Please select a device first</value></data>
+  <data name="View" xml:space="preserve"><value>View</value></data>
+  <data name="Categorized" xml:space="preserve"><value>Categorized</value></data>
+  <data name="Simple" xml:space="preserve"><value>Simple</value></data>
+  <data name="Filter" xml:space="preserve"><value>Filter</value></data>
+  <data name="FilterHint" xml:space="preserve"><value>Enter a device name or MAC to filter scan results; leave empty to show all</value></data>
+  <data name="FilterApply" xml:space="preserve"><value>Apply</value></data>
+  <data name="FilterCancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="PermName" xml:space="preserve"><value>Properties</value></data>
+  <data name="PermEnabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="PropBroadcast" xml:space="preserve"><value>Broadcast</value></data>
+  <data name="PropRead" xml:space="preserve"><value>Read</value></data>
+  <data name="PropWriteNoResp" xml:space="preserve"><value>Write without response</value></data>
+  <data name="PropWrite" xml:space="preserve"><value>Write</value></data>
+  <data name="PropNotify" xml:space="preserve"><value>Notify</value></data>
+  <data name="PropIndicate" xml:space="preserve"><value>Indicate</value></data>
+  <data name="PropAuthSigned" xml:space="preserve"><value>Authenticated signed writes</value></data>
+  <data name="PropExt" xml:space="preserve"><value>Extended properties</value></data>
+  <data name="RssiFilter" xml:space="preserve"><value>Enable RSSI filter (-100 ~ -40 dBm)</value></data>
+  <data name="RssiMin" xml:space="preserve"><value>Min</value></data>
+  <data name="RssiMax" xml:space="preserve"><value>Max</value></data>
+</root>

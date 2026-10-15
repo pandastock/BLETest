@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>BLETestTool</RootNamespace>
+    <AssemblyName>散修测试</AssemblyName>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <NoWarn>CA1416</NoWarn>
+    <LangVersion>Latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+  </PropertyGroup>
+
+  <!--
+    Windows.Devices.Bluetooth 等 WinRT API 由目标框架 net8.0-windows10.0.X 自动内置（CsWinRT 投影），
+    无需任何额外 WinRT 包，也不直接引用 winmd。
+    不要添加 Microsoft.Windows.SDK.Contracts —— 它是旧式 winmd 包，在 .NET 5+ 会触发 NETSDK1130。
+  -->
+
+  <ItemGroup>
+    <Compile Include="Program.vb" />
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="MainForm.vb" />
+    <Compile Include="BLE\AdDataSection.vb" />
+    <Compile Include="BLE\BleCharacteristicInfo.vb" />
+    <Compile Include="BLE\BleDescriptorInfo.vb" />
+    <Compile Include="BLE\BleDeviceInfo.vb" />
+    <Compile Include="BLE\BleManager.vb" />
+    <Compile Include="BLE\BleServiceInfo.vb" />
+    <Compile Include="BLE\GattUuids.vb" />
+    <Compile Include="Utils\HexUtils.vb" />
+    <Compile Include="Localization\LocalizationManager.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Strings.resx">
+      <LogicalName>BLETestTool.Resources.Strings.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Strings.zh-CN.resx">
+      <LogicalName>BLETestTool.Resources.Strings.zh-CN.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Strings.en-US.resx">
+      <LogicalName>BLETestTool.Resources.Strings.en-US.resources</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="app.ico">
+      <LogicalName>BLETestTool.AppIcon.ico</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
